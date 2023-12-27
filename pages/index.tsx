@@ -8,6 +8,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
+
+
     let option: ReactEChartsProps["option"];
     var series = [
         {
@@ -136,7 +138,7 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-            <ReactECharts option={option} />
+            <ReactECharts option={option} theme='dark' />
         </div>
 
         
